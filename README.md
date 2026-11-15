@@ -1,5 +1,4 @@
-# WorkforceOS — Phase 4 (security hardening)
-
+# WorkforceOS
 A workforce and hiring platform: **Departments → Employees** and **Jobs → Candidates → Applications**, with sign-in,
 roles and permissions, and now **security hardening**: rate limits, strict input validation, security headers,
 an append-only audit log, password confirmation for admin actions, least-privilege database access, backups and
