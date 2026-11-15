@@ -1,0 +1,20 @@
+# Runtime
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30
+pydantic[email]>=2.9,<3
+
+# Phase 2: database
+sqlalchemy>=2.0,<3          # ORM / query builder
+alembic>=1.13,<2            # schema migrations
+psycopg[binary]>=3.2,<4     # PostgreSQL driver
+python-dotenv>=1.0          # reads backend/.env
+
+# Phase 3: authentication
+argon2-cffi>=23.1           # Argon2id password hashing
+
+# Phase 4: security
+limits>=4,<6                # rate limiting (moving window); in-memory now, Redis/Memcached-capable later
+
+# Tests
+pytest>=8
+httpx>=0.27

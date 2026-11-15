@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+.env
+*.db
+security-reports/
+*.dump
+*.dump.sha256
+backups/

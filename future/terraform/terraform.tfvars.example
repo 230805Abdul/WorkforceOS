@@ -1,0 +1,12 @@
+aws_region   = "us-east-1"
+project_name = "workforceos"
+environment  = "production"
+
+# Never commit real values for these - pass via TF_VAR_db_password env var
+# or a secrets manager / CI secret instead.
+db_password = "CHANGE_ME"
+
+api_image    = "ghcr.io/your-org/workforceos-api:latest"
+worker_image = "ghcr.io/your-org/workforceos-worker:latest"
+
+acm_certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/REPLACE_ME"

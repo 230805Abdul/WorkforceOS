@@ -1,0 +1,4 @@
+# Security scanning tools (Phase 4). Not needed to RUN WorkforceOS, only to check it.
+#   pip install -r requirements-security.txt
+bandit>=1.8        # static analysis of our Python code for common security mistakes
+pip-audit>=2.7     # checks installed Python packages against known-vulnerability databases
